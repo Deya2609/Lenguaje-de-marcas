@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<cifp xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+
+  <alumno id="a1">
+    <nombre>Deyanira</nombre>
+    <linajes>Torrellas</linajes>
+    <fecha_matricula>2024-09-01</fecha_matricula>
+    <curso>ASIX</curso>
+  </alumno>
+
+</cifp>

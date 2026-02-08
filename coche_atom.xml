@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Notícies sobre cotxes</title>
+  <subtitle>Últimes notícies sobre el món del motor</subtitle>
+
+  <link rel="self" href="https://www.motornews.com/feed.atom"/>
+  <link href="https://www.motornews.com"/>
+
+  <id>https://www.motornews.com/</id>
+  <updated>2024-11-15T12:00:00Z</updated>
+
+  <author>
+    <name>MotorNews</name>
+  </author>
+
+  <!-- NOTICIA 1 -->
+  <entry>
+    <title>Ferrari presenta el seu nou model híbrid, el SF-2024</title>
+    <link href="https://www.motornews.com/ferrari-sf-2024-hibrid"/>
+    <id>https://www.motornews.com/ferrari-sf-2024-hibrid</id>
+    <updated>2024-11-14T10:00:00Z</updated>
+
+    <author>
+      <name>MotorNews</name>
+    </author>
+
+    <summary>
+      Ferrari ha anunciat el llançament del seu nou model híbrid, el SF-2024,
+      que combina rendiment i sostenibilitat.
+    </summary>
+  </entry>
+
+  <!-- NOTICIA 2 -->
+  <entry>
+    <title>Volkswagen anuncia una inversió de 10.000 milions en vehicles elèctrics</title>
+    <link href="https://www.motornews.com/volkswagen-investment-electric-cars"/>
+    <id>https://www.motornews.com/volkswagen-investment-electric-cars</id>
+    <updated>2024-11-12T15:30:00Z</updated>
+
+    <author>
+      <name>MotorNews</name>
+    </author>
+
+    <summary>
+      Volkswagen ha anunciat una gran inversió en vehicles elèctrics,
+      amb nous models i tecnologia de conducció autònoma.
+    </summary>
+  </entry>
+
+</feed>

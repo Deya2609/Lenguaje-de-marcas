@@ -1,0 +1,31 @@
+<?xml version= "1.0” encoding=”UTF-8”?>
+<!DOCTYPE element cifp.dtd>
+
+<! ELEMENT cifp (alumno*, profesor*)>
+
+<!ELEMENT alumno (nombre,linajes, fecha_nacimiento?,correo?, dirección?, fecha_matricula, curso)>
+<!ELEMENT profesor (nombre,linajes, fecha_incorporacion, departament, asignatura)>
+<!ATTLIST profesor id ID #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT linajes (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT dirección (#PCDATA)>
+
+<!ELEMENT fecha_matricula (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+
+<!ELEMENT fecha_incorporacion (#PCDATA)>
+<!ELEMENT departamento (#PCDATA)>
+
+<!ELEMENT asignatura (nombre_asignatura,fecha_inicio?, fecha_final?)>
+<!ATTLIST asignatura id_asignatura ID #REQUIRED>
+
+<!ELEMENT nombre_asignatura (#PCDATA)>
+<!ATTLIST nombre_asignatura ciclo (PRESA|
+Aparentemente |ASIX |SMX |HASTA | ES | O) ID #REQUIRED>
+
+<!ELEMENT fecha_inicio (#PCDATA)>
+<!ELEMENT fecha_final (#PCDATA)>

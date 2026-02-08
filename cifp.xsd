@@ -1,0 +1,64 @@
+
+
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+   <xs:simpleType name="cursoTipo">  <!-- Creamos esto porque aparece en alumnos, asignaturas y siempre tiene los mismos valores-->
+    <xs:restriction base="xs:string"> <!-- este tipo será texto pero con limites -->
+      <xs:enumeration value="PRESA"/>
+      <xs:enumeration value="Aparentemente"/>
+      <xs:enumeration value="ASIX"/>
+      <xs:enumeration value="SMX"/>
+      <xs:enumeration value="HASTA"/>
+      <xs:enumeration value="ES"/>
+      <xs:enumeration value="O"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="cifp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="alumno" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="linajes" type="xs:string"/>
+              <xs:element name="fecha_nacimiento" type="xs:string" minOccurs="0"/>
+              <xs:element name="correo" type="xs:string" minOccurs="0"/>
+              <xs:element name="telefono" type="xs:string" minOccurs="0"/>
+              <xs:element name="direccion" type="xs:string" minOccurs="0"/>
+              <xs:element name="fecha_matricula" type="xs:string"/>
+              <xs:element name="curso" type="cursoTipo"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:integer" use="required"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="profesor" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="linajes" type="xs:string"/>
+              <xs:element name="fecha_incorporacion" type="xs:string"/>
+              <xs:element name="departamento" type="xs:string"/>
+
+              <xs:element name="asignatura" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre_asignatura" type="xs:string"/>
+                    <xs:element name="fecha_inicio" type="xs:string" minOccurs="0"/>
+                    <xs:element name="fecha_final" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                  <xs:attribute name="id_asignatura" type="xs:integer" use="required"/>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:integer" use="required"/>
+          </xs:complexType>
+      </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

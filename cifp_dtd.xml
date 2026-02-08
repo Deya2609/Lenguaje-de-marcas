@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE cifp SYSTEM "cifp.dtd">
+<cifp>
+    <alumno id= "a1">
+        <nombre>Deyanira</nombre>
+        <linajes> Torrellas</linajes>
+        <fecha_matricula>2024-09-01</fecha_matricula>
+        <curso> ASIX</curso>
+    </alumno>
+
+    <profesor id="10">
+        <nombre> Carlos </nombre>
+        <linajes> Pérez </linajes>
+        <fecha_incorporacion> 2020-01-10</fecha_incorporacion>
+        <departamento> Informática</departamento>
+
+        <asignatura id_asignatura= "100">
+            <nombre_asignatura ciclo= "ASIX"> Bases de Datos</nombre_asignatura>
+        </asignatura>
+    </profesor>
+</cifp>

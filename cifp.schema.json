@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+
+    "alumno": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre", "linajes", "fecha_matricula", "curso"],
+        "properties": {
+          "id": { "type": "integer" },
+          "nombre": { "type": "string" },
+          "linajes": { "type": "string" },
+          "fecha_nacimiento": { "type": "string" },
+          "correo": { "type": "string" },
+          "telefono": { "type": "string" },
+          "direccion": { "type": "string" },
+          "fecha_matricula": { "type": "string" },
+          "curso": {
+            "type": "string",
+            "enum": ["PRESA", "Aparentemente", "ASIX", "SMX", "HASTA", "ES", "O"]
+          }
+        }
+      }
+    },
+
+    "profesor": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre", "linajes", "fecha_incorporacion", "departamento"],
+        "properties": {
+          "id": { "type": "integer" },
+          "nombre": { "type": "string" },
+          "linajes": { "type": "string" },
+          "fecha_incorporacion": { "type": "string" },
+          "departamento": {
+            "type": "string",
+            "enum": ["Informática", "Electricidad", "Automoción"]
+          },
+
+          "asignatura": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id_asignatura", "nombre_asignatura", "ciclo"],
+              "properties": {
+                "id_asignatura": { "type": "integer" },
+                "nombre_asignatura": { "type": "string" },
+                "ciclo": {
+                  "type": "string",
+                  "enum": ["PRESA", "Aparentemente", "ASIX", "SMX", "HASTA", "ES", "O"]
+                },
+                "fecha_inicio": { "type": "string" },
+                "fecha_final": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

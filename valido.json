@@ -1,0 +1,27 @@
+{
+  "alumno": [
+    {
+      "id": 1,
+      "nombre": "Deyanira",
+      "linajes": "Torrellas",
+      "fecha_matricula": "2024-09-01",
+      "curso": "ASIX"
+    }
+  ],
+  "profesor": [
+    {
+      "id": 10,
+      "nombre": "Juan",
+      "linajes": "Pérez",
+      "fecha_incorporacion": "2018-09-01",
+      "departamento": "Informática",
+      "asignatura": [
+        {
+          "id_asignatura": 101,
+          "nombre_asignatura": "ASIX",
+          "fecha_inicio": "2024-09-01"
+        }
+      ]
+    }
+  ]
+}
