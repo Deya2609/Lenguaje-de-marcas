@@ -1,0 +1,29 @@
+body{
+ font-family: Arial;
+}
+
+h1{
+ text-align:center;
+}
+
+.oficina{
+ border:1px solid gray;
+ margin:20px;
+}
+
+.titulo{
+ background:#1f4e79;
+ color:white;
+ padding:10px;
+ font-size:20px;
+}
+
+.contenido{
+ display:flex;
+ padding:10px;
+}
+
+.contenido img{
+ width:150px;
+ margin-right:20px;
+}
