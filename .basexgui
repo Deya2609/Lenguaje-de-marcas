@@ -1,0 +1,138 @@
+# Version
+UPDATEVERSION = 12.2
+CHECKUPDATES = false
+
+# Paths
+INPUTPATH = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/
+DATAPATH = C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\BaseX\
+WORKPATH = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/
+PROJECTPATH = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/
+
+# Layout
+FONT = SansSerif
+MONOFONT = Consolas
+FONTSIZE = 15
+LISTMONO = true
+ANTIALIAS = System
+COLORRED = 21
+COLORGREEN = 14
+COLORBLUE = 7
+
+# Windows
+VIEWS = V H editor folder map plot - H text info table tree explore - - 
+GUISIZE0 = 1004
+GUISIZE1 = 748
+GUILOC0 = 10
+GUILOC1 = 10
+MAXSTATE = true
+SHOWBUTTONS = true
+SHOWINPUT = true
+SHOWSTATUS = true
+SHOWINFO = true
+SHOWMAP = true
+SHOWTABLE = false
+SHOWTEXT = true
+SHOWFOLDER = false
+SHOWEXPLORE = false
+SHOWPLOT = true
+SHOWEDITOR = true
+SHOWTREE = false
+SHOWPROJECT = true
+INDENTRESULT = false
+PREFTAB = 0
+LOOKANDFEEL = 
+LABELS = name,label,id
+SCROLLTABS = true
+MOUSEFOCUS = false
+XMLSUFFIXES = xml,xsd,svg,rdf,rss,rng,sch,xhtml
+ASCSORT = true
+CASESORT = true
+MERGEDUPL = false
+COLUMN = 1
+UNICODE = true
+SHOWMARGIN = true
+MARGIN = 80
+TABSPACES = true
+INDENT = 2
+SHOWINVISIBLE = true
+SHOWNL = false
+SHOWLINES = true
+MARKLINE = true
+SAVERUN = false
+PARSEPROJ = true
+AUTO = true
+FILES = *.xml, *.xq*
+SHOWHIDDEN = false
+SEARCHMODE = 2
+FILTERRT = false
+EXECRT = false
+DBNAME = CLASSICMODELS_BD1
+LASTINSERT = 1
+
+# Visualizations
+MAPATTS = false
+MAPOFFSETS = 3
+MAPALGO = 0
+MAPWEIGHT = 0
+TREESLIM = true
+TREEATTS = false
+PLOTDOTS = 0
+PLOTXLOG = false
+PLOTYLOG = false
+MAXTEXT = 8388608
+MAXRESULTS = 500000
+
+# Search
+SEARCHED = 0
+REPLACED = 0
+
+# History
+COMMANDS = 7
+COMMANDS1 = add "C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\XML_Classicmodels\Payments.xml"
+COMMANDS2 = add "C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\XML_Classicmodels\employees.xml"
+COMMANDS3 = add "C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\XML_Classicmodels\Customers.xml"
+COMMANDS4 = add to C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\XML_Classicmodels\Customers.xml
+COMMANDS5 = OPEN CLASSICMODELS_BD
+COMMANDS6 = ADD TO Customers "C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\XML_Classicmodels\Customers.xml"
+COMMANDS7 = ADD TO Customers
+SEARCH = 3
+SEARCH1 = ADD TO "C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\XML_Classicmodels\employees.xml"
+SEARCH2 = ADD TO "C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\XML_Classicmodels\Customers.xml"
+SEARCH3 = ADD TO
+XQUERY = 0
+
+# Files
+EDITOR = 15
+EDITOR1 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.14.xq
+EDITOR2 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.15.xq
+EDITOR3 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.13.xq
+EDITOR4 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.12.xq
+EDITOR5 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.11.xq
+EDITOR6 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Payments.xml
+EDITOR7 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.10.xq
+EDITOR8 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Employees.xml
+EDITOR9 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/atv.basex
+EDITOR10 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Customers.xml
+EDITOR11 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consulta2.5.xq
+EDITOR12 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consulta2.4.xq
+EDITOR13 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.1.xq
+EDITOR14 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.2.xq
+EDITOR15 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consulta2.3.xq
+INPUTS = 7
+INPUTS1 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/
+INPUTS2 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/XML_Classicmodels/
+INPUTS3 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/
+INPUTS4 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/payments.xml
+INPUTS5 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/employee.xml
+INPUTS6 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/Customers.xml
+INPUTS7 = C:\Users\Johandelyn\Desktop\FP SUPERIOR MULTIPLATAFORMA\0373 Lenguaje de Marcas\Tarea6\BaseX\
+OPEN = 3
+OPEN1 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Employees.xml
+OPEN2 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Payments.xml
+OPEN3 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/data/CLASSICMODELS_BD/Consultas2.14.xq
+PROJECTS = 1
+PROJECTS1 = C:/Users/Johandelyn/Desktop/FP SUPERIOR MULTIPLATAFORMA/0373 Lenguaje de Marcas/Tarea6/BaseX/
+PROJFILES = 0
+PROJCONTS = 0
+
+# Local Options
