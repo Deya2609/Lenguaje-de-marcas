@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="customers_table.xsl"?>
-<customers>
+<?xml-stylesheet type="text/xsl" href="customers_table.xsl"?><customers>
   <customer customerNumber="103">
     <customerName>Atelier graphique</customerName>
     <phone>40.32.2555</phone>
